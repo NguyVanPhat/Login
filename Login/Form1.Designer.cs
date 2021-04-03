@@ -29,53 +29,53 @@ namespace Login
         /// </summary>
         private void InitializeComponent()
         {
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.txtUserName = new System.Windows.Forms.TextBox();
+			this.lbUserName = new System.Windows.Forms.Label();
+			this.lbPassword = new System.Windows.Forms.Label();
+			this.txtPassword = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
-			// textBox1
+			// txtUserName
 			// 
-			this.textBox1.Location = new System.Drawing.Point(187, 12);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(374, 43);
-			this.textBox1.TabIndex = 1;
+			this.txtUserName.Location = new System.Drawing.Point(187, 12);
+			this.txtUserName.Name = "txtUserName";
+			this.txtUserName.Size = new System.Drawing.Size(374, 43);
+			this.txtUserName.TabIndex = 1;
 			// 
-			// label1
+			// lbUserName
 			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(12, 9);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(153, 38);
-			this.label1.TabIndex = 2;
-			this.label1.Text = "UserName:";
+			this.lbUserName.AutoSize = true;
+			this.lbUserName.Location = new System.Drawing.Point(12, 9);
+			this.lbUserName.Name = "lbUserName";
+			this.lbUserName.Size = new System.Drawing.Size(153, 38);
+			this.lbUserName.TabIndex = 2;
+			this.lbUserName.Text = "UserName:";
 			// 
-			// label2
+			// lbPassword
 			// 
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(12, 79);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(132, 38);
-			this.label2.TabIndex = 3;
-			this.label2.Text = "Password";
+			this.lbPassword.AutoSize = true;
+			this.lbPassword.Location = new System.Drawing.Point(12, 79);
+			this.lbPassword.Name = "lbPassword";
+			this.lbPassword.Size = new System.Drawing.Size(138, 38);
+			this.lbPassword.TabIndex = 3;
+			this.lbPassword.Text = "Password:";
 			// 
-			// textBox2
+			// txtPassword
 			// 
-			this.textBox2.Location = new System.Drawing.Point(187, 79);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(374, 43);
-			this.textBox2.TabIndex = 1;
+			this.txtPassword.Location = new System.Drawing.Point(187, 79);
+			this.txtPassword.Name = "txtPassword";
+			this.txtPassword.Size = new System.Drawing.Size(374, 43);
+			this.txtPassword.TabIndex = 1;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(573, 260);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.lbPassword);
+			this.Controls.Add(this.lbUserName);
+			this.Controls.Add(this.txtPassword);
+			this.Controls.Add(this.txtUserName);
 			this.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 			this.Name = "Form1";
 			this.Text = "Form1";
@@ -85,10 +85,10 @@ namespace Login
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Label lbUserName;
+		private System.Windows.Forms.Label lbPassword;
+		private System.Windows.Forms.TextBox txtPassword;
 	}
 }
 
