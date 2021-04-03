@@ -16,5 +16,19 @@ namespace Login
         {
             InitializeComponent();
         }
-    }
+
+		private void btnLogin_Click(object sender, EventArgs e)
+		{
+            string userName, passWord;
+            userName = txtUserName.Text;
+            passWord = txtPassword.Text;
+            if (userName == "admin" && passWord == "admin")
+            {
+                MessageBox.Show("Dang nhap thanh cong","Thong bao");
+            }
+            else {
+                MessageBox.Show("Dang nhap that bai", "Thong bao");
+            }
+		}
+	}
 }
